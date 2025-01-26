@@ -1,4 +1,4 @@
-# Prevendo a Retenção de Funcionários da Salifort Motors 🚗 
+# Análise e Previsão de Churn de Talentos da Salifort Motors 🚗 
 
 ## Visão Geral
 
