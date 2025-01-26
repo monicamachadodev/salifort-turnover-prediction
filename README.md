@@ -1,4 +1,4 @@
-# Análise e Previsão de Churn de Talentos da Salifort Motors 🚗 
+# Previsão de Churn de Talentos da Salifort Motors 🚗 
 
 ## Visão Geral
 
