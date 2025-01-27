@@ -5,6 +5,7 @@
 Este projeto foi desenvolvido para ajudar o departamento de Recursos Humanos da Salifort Motors a entender os fatores que influenciam a retenção de funcionários. Utilizando análise exploratória e aprendizado de máquina, criamos um modelo preditivo capaz de identificar os colaboradores com maior risco de deixar a empresa. Isso fornece insights para implementar estratégias de retenção mais eficazes.
 
 Objetivo: Identificar padrões nos dados para prever a saída e propor soluções estratégicas.
+
 Ferramentas Utilizadas: Python, pandas, scikit-learn, XGBoost, matplotlib, seaborn.
 
 
@@ -50,7 +51,6 @@ Os dados foram pré-processados para garantir sua integridade e relevância:
 Vários modelos foram testados para prever a rotatividade, incluindo:
 - **Regressão Logística**.
 - **Classificadores baseados em Árvores (Decision Tree, Random Forest)**.
-- **XGBoost**.
 
 ### Métricas de Avaliação
 
@@ -61,11 +61,14 @@ Os modelos foram avaliados com base em:
 - **F1-Score**: Harmonia entre precisão e recall.
 - **AUC-ROC**: Desempenho geral do modelo em prever as classes.
 
-Resultados:
-- O modelo **[inserir XGBoost]** apresentou o melhor desempenho com:
-  - Acurácia: XX%.
-  - Recall: XX%.
-  - F1-Score: XX%.
+### Resumo dos Resultados dos Modelos:
+- Regressão logística
+
+O modelo de regressão logística obteve precisão de 80%, recall de 83%, pontuação f1 de 80% (todas as médias ponderadas) e acurácia de 83% no conjunto de teste.
+
+- Aprendizado de máquina baseado em árvore
+
+Depois de realizar a engenharia de recursos, o modelo de árvore de decisão obteve AUC de 93,8%, precisão de 87,0%, recall de 90,4%, pontuação f1 de 88,7% e acurácia de 96,2% no conjunto de teste. A floresta randômica superou modestamente o modelo de árvore de decisão.
 
 
 ## Conclusão e Próximos Passos 📈
