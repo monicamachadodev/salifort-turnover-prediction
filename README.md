@@ -6,7 +6,7 @@ Este projeto foi desenvolvido para ajudar o departamento de Recursos Humanos da 
 
 ### Objetivo: 
 
-Identificar padrões nos dados para prever a saída e propor soluções estratégicas.
+Identificar padrões nos dados para prever a saída de funcionários e propor soluções estratégicas.
 
 
 ## Compreensão do Negócio 🏢
@@ -22,13 +22,20 @@ O projeto aborda questões críticas como:
 
 ## Compreensão dos Dados 📊
 
-Os dados foram obtidos do sistema de recursos humanos da empresa e incluem cerca de 15.000 registros de funcionários com as seguintes características:
-- department: Departamento do funcionário.
-- average_monthly_hours: Média de horas trabalhadas por mês.
-- tenure: Tempo de empresa (anos).
-- work_accident: Registro de acidentes de trabalho.
-- promotion_last_5years: Promoção nos últimos 5 anos.
-- left: Indicador binário de saída do funcionário (1 = sim, 0 = não).
+Os dados foram obtidos do Kaggle [dataset](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv), há 14,999 linhas, 10 columas e essas variáveis: 
+
+Variável  |Descrição |
+-----|-----| 
+satisfaction_level|Nível de satisfação no trabalho relatado pelo funcionário [0&ndash;1]|
+last_evaluation|Pontuação da última avaliação de desempenho do funcionário [0&ndash;1]|
+number_project|Número de projetos para os quais o funcionário contribui|
+average_monthly_hours|Número médio de horas trabalhadas pelo funcionário por mês|
+time_spend_company|Há quanto tempo o funcionário está na empresa (anos)
+Work_accident|Se o funcionário sofreu ou não um acidente durante o trabalho
+left|Se o funcionário saiu ou não da empresa (1 = sim, 0 = não)
+promotion_last_5years|Se o funcionário foi promovido ou não nos últimos 5 anos
+Department|Departamento do funcionário
+salary|Salário do funcionário (dólares americanos)
 
 ### Pré-processamento dos Dados
 - Colunas renomeadas para maior clareza.
