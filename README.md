@@ -1,12 +1,11 @@
 # Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos
 
-## Visão Geral
+## Visão Geral 🔎 
 
 Este projeto foi desenvolvido para ajudar o departamento de Recursos Humanos da Salifort Motors a entender os fatores que influenciam a retenção de funcionários. Utilizando análise exploratória e aprendizado de máquina, criamos um modelo preditivo capaz de identificar os colaboradores com maior risco de deixar a empresa. Isso fornece insights para implementar estratégias de retenção mais eficazes.
 
-Objetivo: Identificar padrões nos dados para prever a saída e propor soluções estratégicas.
-
-Ferramentas Utilizadas: Python, pandas, scikit-learn, XGBoost, matplotlib, seaborn.
+### Objetivo: 
+Identificar padrões nos dados para prever a saída e propor soluções estratégicas.
 
 
 ## Compreensão do Negócio 🏢
@@ -71,24 +70,23 @@ O modelo de regressão logística obteve precisão de 80%, recall de 83%, pontua
 Depois de realizar a engenharia de recursos, o modelo de árvore de decisão obteve AUC de 93,8%, precisão de 87,0%, recall de 90,4%, pontuação f1 de 88,7% e acurácia de 96,2% no conjunto de teste. A floresta randômica superou modestamente o modelo de árvore de decisão.
 
 
-## Conclusão e Próximos Passos 📈
+## 🔄  Resultados
 
-### Conclusão
-O modelo identifica com precisão os funcionários mais propensos a deixar a empresa, possibilitando intervenções direcionadas, como:
-- Redução de carga de trabalho em departamentos críticos, oferecendo suporte aos funcionários com sobrecarga.
-- Aumento de benefícios para grupos de salários baixos, estabelecendo programas de retenção específicos para os departamentos mais afetados.
-- Programas de desenvolvimento de carreira, oferecendo promoções e oportunidades de crescimento interno, especialmente para funcionários com mais de 3 anos de casa.
+### Principais descobertas
+- Departamentos com as maiores taxas de rotatividade: *[Adicionar percepções]*.
+- Os funcionários que trabalham mais de *[Adicionar número]* horas por mês têm maior probabilidade de sair.
+- Altas cargas de projeto foram fortemente correlacionadas com a rotatividade.
 
-Essas ações podem reduzir a rotatividade e melhorar a satisfação dos colaboradores. No futuro, seria interessante incluir fatores adicionais, como feedback dos funcionários e avaliações de desempenho, para refinar ainda mais as previsões.
+**Desempenho do modelo**
+- **Melhor modelo**: *[Adicionar modelo]*
+- Métricas**:
+  - Accuracy: *[Add]*
+  - F1-Score: *[Add]*
 
-### Próximos Passos
-
-1. **Integração com sistemas internos**:
-   - Implementar o modelo para monitorar funcionários em tempo real.
-2. **Análise mais aprofundada**:
-   - Incorporar novas variáveis, como feedbacks de funcionários e avaliações de desempenho.
-3. **Validação do modelo**:
-   - Testar o modelo em dados futuros para validar sua eficácia.
+## 💡 Recomendações
+- Gerenciamento da carga de trabalho: Implementar limites nas atribuições de projetos.
+- Programas de reconhecimento: Recompensar os funcionários de departamentos com alta rotatividade.
+- Ferramentas de monitoramento: Avalie regularmente a satisfação dos funcionários e o equilíbrio da carga de trabalho
 
 
 ## Como Executar 🚀
