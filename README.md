@@ -1,4 +1,4 @@
-# Previsão de Churn de Talentos da Salifort Motors 🚗 
+# Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos
 
 ## Visão Geral
 
