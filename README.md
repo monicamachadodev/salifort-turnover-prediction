@@ -95,7 +95,7 @@ Essas ações podem reduzir a rotatividade e melhorar a satisfação dos colabor
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu_usuario/salifort-motors-retention.git
+   git clone https://github.com/seu_usuario/salifort-turnover-prediction.git
 
 2. Instale as dependências:
    ```bash
@@ -103,7 +103,7 @@ Essas ações podem reduzir a rotatividade e melhorar a satisfação dos colabor
    
 3. Execute o Jupyter Notebook:
    ```bash
-   jupyter notebook Salifort_Motors.ipynb
+   jupyter notebook salifort.ipynb
    
 
 ## Tecnologias Utilizadas 🛠️
