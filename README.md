@@ -5,12 +5,15 @@
 Este projeto foi desenvolvido para ajudar o departamento de Recursos Humanos da Salifort Motors a entender os fatores que influenciam a retenção de funcionários. Utilizando análise exploratória e aprendizado de máquina, criamos um modelo preditivo capaz de identificar os colaboradores com maior risco de deixar a empresa. Isso fornece insights para implementar estratégias de retenção mais eficazes.
 
 ### Objetivo: 
+
 Identificar padrões nos dados para prever a saída e propor soluções estratégicas.
 
 
 ## Compreensão do Negócio 🏢
 
-A rotatividade de funcionários pode gerar altos custos operacionais e perda de conhecimento institucional. O projeto aborda questões críticas como:
+A rotatividade de funcionários pode gerar altos custos operacionais e perda de conhecimento institucional. 
+
+O projeto aborda questões críticas como:
 
 - Identificar quais departamentos apresentam maior turnover.
 - Analisar a relação entre carga de trabalho e saída dos funcionários.
@@ -19,7 +22,7 @@ A rotatividade de funcionários pode gerar altos custos operacionais e perda de 
 
 ## Compreensão dos Dados 📊
 
-A análise deste projeto utiliza dados históricos de funcionários da Salifort Motors, incluindo:
+Os dados foram obtidos do sistema de recursos humanos da empresa e incluem cerca de 15.000 registros de funcionários com as seguintes características:
 - department: Departamento do funcionário.
 - average_monthly_hours: Média de horas trabalhadas por mês.
 - tenure: Tempo de empresa (anos).
