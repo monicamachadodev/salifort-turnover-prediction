@@ -22,7 +22,7 @@ O projeto aborda questões críticas como:
 
 ## Compreensão dos Dados 📊
 
-Os dados foram obtidos do Kaggle [dataset](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv), há 14,999 linhas, 10 columas e essas variáveis: 
+Os dados foram obtidos do Kaggle [dataset](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv), há 14,999 linhas, 10 colunas e essas variáveis: 
 
 Variável  |Descrição |
 -----|-----| 
