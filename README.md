@@ -26,8 +26,8 @@ Os dados foram obtidos do Kaggle [dataset](https://www.kaggle.com/datasets/mfais
 
 Variável  |Descrição |
 -----|-----| 
-satisfaction_level|Nível de satisfação no trabalho relatado pelo funcionário [0&ndash;1]|
-last_evaluation|Pontuação da última avaliação de desempenho do funcionário [0&ndash;1]|
+satisfaction_level|Nível de satisfação no trabalho relatado pelo funcionário (0-1)|
+last_evaluation|Pontuação da última avaliação de desempenho do funcionário (0-1)|
 number_project|Número de projetos para os quais o funcionário contribui|
 average_monthly_hours|Número médio de horas trabalhadas pelo funcionário por mês|
 time_spend_company|Há quanto tempo o funcionário está na empresa (anos)
