@@ -71,6 +71,15 @@ Os modelos foram avaliados com base em:
 - **AUC-ROC**: Desempenho geral do modelo em prever as classes.
 
 ### Resumo dos Resultados dos Modelos:
+
+Avaliação|Regressão Logistica|Decision Tree|Random Forest|
+-----|-----| 
+**Acurácia**|
+**Precisão**|
+**Recall**|
+**F1-Score**|
+**AUC-ROC**|
+
 - Regressão logística
 
 O modelo de regressão logística obteve precisão de 80%, recall de 83%, pontuação f1 de 80% (todas as médias ponderadas) e acurácia de 83% no conjunto de teste.
