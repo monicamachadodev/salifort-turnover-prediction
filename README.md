@@ -7,7 +7,7 @@ Este projeto tem como objetivo analisar os fatores que influenciam a saída de f
 
 ## 📌 Visão Geral
 
-O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Analize, Construção e E ):
+O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Analize, Construção e Execução ):
 1. **Exploração dos Dados**: Análise das variáveis e identificação de padrões.
 2. **Limpeza e Preparação dos Dados**: Tratamento de valores nulos, duplicatas e codificação de variáveis categóricas.
 3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
