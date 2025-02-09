@@ -133,5 +133,4 @@ Este projeto demonstra como a análise de dados pode fornecer insights valiosos 
 
 Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
-LinkedIn: https://www.linkedin.com/in/monicaalessandra
-
+LinkedIn: [![Linkedin](https://img.shields.io/badge/-monicaalessandra-blue?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN)](https://www.linkedin.com/in/monicaalessandra/)
