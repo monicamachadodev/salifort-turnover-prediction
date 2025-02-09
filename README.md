@@ -11,7 +11,7 @@ O projeto é dividido nas seguintes etapas:
 3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
 4. **Interpretação dos Resultados**: Identificação dos principais fatores que impactam a retenção e sugestões de ações para a empresa.
 
-## Compreensão do Negócio 🏢
+## Compreensão do Negócio
 
 A rotatividade de funcionários pode gerar altos custos operacionais e perda de conhecimento institucional. 
 
@@ -22,7 +22,7 @@ O projeto aborda questões críticas como:
 - Propor intervenções baseadas em dados.
 
 
-## Compreensão dos Dados 📊
+## 📂 Compreensão dos Dados 
 
 Os dados foram obtidos do Kaggle [dataset](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv), há 14,999 linhas, 10 colunas e essas variáveis: 
 
@@ -39,6 +39,12 @@ promotion_last_5years|SIndica se o funcionário foi promovido nos últimos 5 ano
 Department|Departamento em que o funcionário trabalha.|
 salary|Nível salarial (baixo, médio, alto).
 
+## 🛠️ Tecnologias Utilizadas 
+
+- Python (pandas, numpy, matplotlib, seaborn)
+- Scikit-learn
+- XGBoost
+- Jupyter Notebook
 
 ## 📖 Passo a Passo do Projeto
 
@@ -75,10 +81,10 @@ Foram utilizadas bibliotecas como `pandas`, `numpy`, `matplotlib`, `seaborn`, `s
 
 Avaliação  |Regressão Logistica |Decision Tree  |Random Forest |
 -----|-----| 
-**Acurácia**|
-**Precisão**|
-**Recall**|
-**F1-Score**|
+**Acurácia**|83% | 
+**Precisão**|80% |
+**Recall**|83% |
+**F1-Score**|80%
 **AUC-ROC**|
 
 - Regressão logística
@@ -93,16 +99,11 @@ Depois de realizar a engenharia de recursos, o modelo de árvore de decisão obt
 ## 📊 Resultados e Insights
 
 ### Principais Fatores que Impactam a Retenção:
-- 
+- Baixa satisfação no trabalho.
+- Elevada carga horária mensal.
+- Funcionários com poucos ou muitos projetos foram fortemente correlacionadas com a rotatividade.
+- Salário: Funcionários com salários mais altos tendem a permanecer na empresa.
 - Departamentos com as maiores taxas de rotatividade: *[Adicionar percepções]*.
-- Os funcionários que trabalham mais de *[Adicionar número]* horas por mês têm maior probabilidade de sair.
-- Altas cargas de projeto foram fortemente correlacionadas com a rotatividade.
-
-**Desempenho do modelo**
-- **Melhor modelo**: *[Adicionar modelo]*
-- Métricas**:
-  - Accuracy: *[Add]*
-  - F1-Score: *[Add]*
 
 ## 💡 Recomendações para a Empresa:
 - Monitorar a satisfação dos funcionários com pesquisas regulares.
@@ -114,7 +115,7 @@ Depois de realizar a engenharia de recursos, o modelo de árvore de decisão obt
 
 Este projeto demonstra como a análise de dados pode fornecer insights valiosos para a gestão de pessoas, ajudando empresas a reduzir a rotatividade de funcionários com estratégias baseadas em evidências. Os modelos desenvolvidos têm um bom desempenho preditivo e podem ser utilizados para identificar funcionários em risco de saída.
 
-## Como Executar 🚀
+## 🚀 Como Executar 
 
 1. Clone o repositório:
    ```bash
@@ -128,15 +129,7 @@ Este projeto demonstra como a análise de dados pode fornecer insights valiosos 
    ```bash
    jupyter notebook salifort.ipynb
    
-
-## Tecnologias Utilizadas 🛠️
-
-- Python (pandas, numpy, matplotlib, seaborn)
-- Scikit-learn
-- XGBoost
-- Jupyter Notebook
-
-## Contato 📬
+## 📬 Contato 
 
 Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
