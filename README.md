@@ -1,3 +1,5 @@
+<---! <img src="https://github.com/monicamachadodev/Agente-de-negocios/blob/main/robo-trading.png"> !--->
+
 # Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos 
 
 Este projeto tem como objetivo analisar os fatores que influenciam a saída de funcionários da empresa fictícia **Salifort Motors**. Utilizando técnicas de análise exploratória de dados (EDA) e modelagem preditiva, buscamos identificar padrões e propor estratégias para melhorar a retenção de colaboradores.
@@ -5,7 +7,7 @@ Este projeto tem como objetivo analisar os fatores que influenciam a saída de f
 
 ## 📌 Visão Geral
 
-O projeto é dividido nas seguintes etapas:
+O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Analize, Construção e E ):
 1. **Exploração dos Dados**: Análise das variáveis e identificação de padrões.
 2. **Limpeza e Preparação dos Dados**: Tratamento de valores nulos, duplicatas e codificação de variáveis categóricas.
 3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
@@ -34,7 +36,7 @@ number_project|Número de projetos em que o funcionário está envolvido.|
 average_monthly_hours|Média de horas trabalhadas por mês.||
 time_spend_company|Tempo de permanência na empresa (em anos).|
 Work_accident|Indica se o funcionário sofreu um acidente de trabalho (0 ou 1).|
-left|Indica se o funcionário saiu da empresa (0 não ou 1 sim).|
+left|Indica se o funcionário saiu da empresa (0 ou 1).|
 promotion_last_5years|SIndica se o funcionário foi promovido nos últimos 5 anos (0 ou 1).|
 Department|Departamento em que o funcionário trabalha.|
 salary|Nível salarial (baixo, médio, alto).
@@ -103,7 +105,7 @@ Depois de realizar a engenharia de recursos, o modelo de árvore de decisão obt
 - Elevada carga horária mensal.
 - Funcionários com poucos ou muitos projetos foram fortemente correlacionadas com a rotatividade.
 - Salário: Funcionários com salários mais altos tendem a permanecer na empresa.
-- Departamentos com as maiores taxas de rotatividade: *[Adicionar percepções]*.
+- Os 3 departamentos com as maiores taxas de rotatividade são: *Vendas, Tecnologia e Suporte*.
 
 ## 💡 Recomendações para a Empresa:
 - Monitorar a satisfação dos funcionários com pesquisas regulares.
