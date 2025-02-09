@@ -1,4 +1,4 @@
-<---! <img src="https://github.com/monicamachadodev/Agente-de-negocios/blob/main/robo-trading.png"> !--->
+<img src="https://github.com/monicamachadodev/salifort-turnover-prediction/blob/main/capa-previsao-turnover.jpg">
 
 # Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos 
 
