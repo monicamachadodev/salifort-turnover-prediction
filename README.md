@@ -1,13 +1,15 @@
-# Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos
+# Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos 
 
-## Visão Geral 🔎 
+Este projeto tem como objetivo analisar os fatores que influenciam a saída de funcionários da empresa fictícia **Salifort Motors**. Utilizando técnicas de análise exploratória de dados (EDA) e modelagem preditiva, buscamos identificar padrões e propor estratégias para melhorar a retenção de colaboradores.
 
-Este projeto foi desenvolvido para ajudar o departamento de Recursos Humanos da Salifort Motors a entender os fatores que influenciam a retenção de funcionários. Utilizando análise exploratória e aprendizado de máquina, criamos um modelo preditivo capaz de identificar os colaboradores com maior risco de deixar a empresa. Isso fornece insights para implementar estratégias de retenção mais eficazes.
 
-### Objetivo: 
+## 📌 Visão Geral
 
-Identificar padrões nos dados para prever a saída de funcionários e propor soluções estratégicas.
-
+O projeto é dividido nas seguintes etapas:
+1. **Exploração dos Dados**: Análise das variáveis e identificação de padrões.
+2. **Limpeza e Preparação dos Dados**: Tratamento de valores nulos, duplicatas e codificação de variáveis categóricas.
+3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
+4. **Interpretação dos Resultados**: Identificação dos principais fatores que impactam a retenção e sugestões de ações para a empresa.
 
 ## Compreensão do Negócio 🏢
 
@@ -26,53 +28,52 @@ Os dados foram obtidos do Kaggle [dataset](https://www.kaggle.com/datasets/mfais
 
 Variável  |Descrição |
 -----|-----| 
-satisfaction_level|Nível de satisfação no trabalho relatado pelo funcionário (0-1)|
-last_evaluation|Pontuação da última avaliação de desempenho do funcionário (0-1)|
-number_project|Número de projetos para os quais o funcionário contribui|
-average_monthly_hours|Número médio de horas trabalhadas pelo funcionário por mês|
-time_spend_company|Há quanto tempo o funcionário está na empresa (anos)
-Work_accident|Se o funcionário sofreu ou não um acidente durante o trabalho
-left|Se o funcionário saiu ou não da empresa (1 = sim, 0 = não)
-promotion_last_5years|Se o funcionário foi promovido ou não nos últimos 5 anos
-Department|Departamento do funcionário
-salary|Salário do funcionário (dólares americanos)
-
-### Pré-processamento dos Dados
-- Colunas renomeadas para maior clareza.
-- Exclusão de valores redundantes ou inconsistentes.
-- Normalização de variáveis numéricas para otimizar a modelagem.
-
-Os dados foram pré-processados para garantir sua integridade e relevância:
-1. **Variáveis categóricas**:
-   - A coluna `department` foi convertida para variáveis dummy.
-   - A coluna `salary` foi codificada ordinalmente (`low = 0`, `medium = 1`, `high = 2`).
-   
-2. **Análise de correlação**:
-   - Um mapa de calor foi gerado para entender as relações entre as variáveis numéricas.
-   - Variáveis redundantes ou irrelevantes foram removidas.
-
-3. **Divisão dos dados**:
-   - O conjunto foi dividido em treinamento (70%) e teste (30%).
+satisfaction_level|Nível de satisfação do funcionário (0 a 1).|
+last_evaluation|Resultado da última avaliação de desempenho (0 a 1).|
+number_project|Número de projetos em que o funcionário está envolvido.|
+average_monthly_hours|Média de horas trabalhadas por mês.||
+time_spend_company|Tempo de permanência na empresa (em anos).|
+Work_accident|Indica se o funcionário sofreu um acidente de trabalho (0 ou 1).|
+left|Indica se o funcionário saiu da empresa (0 não ou 1 sim).|
+promotion_last_5years|SIndica se o funcionário foi promovido nos últimos 5 anos (0 ou 1).|
+Department|Departamento em que o funcionário trabalha.|
+salary|Nível salarial (baixo, médio, alto).
 
 
-## Avaliação do Modelo 🤖
+## 📖 Passo a Passo do Projeto
 
-Vários modelos foram testados para prever a rotatividade, incluindo:
-- **Regressão Logística**.
-- **Classificadores baseados em Árvores (Decision Tree, Random Forest)**.
+### 1️⃣ Importação de Bibliotecas
+Foram utilizadas bibliotecas como `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn` e `xgboost` para análise, visualização e modelagem.
 
-### Métricas de Avaliação
+### 2️⃣ Carregamento e Inspeção dos Dados
+- Leitura do dataset `HR.csv`.
+- Renomeação de colunas para facilitar a manipulação.
+- Verificação de valores nulos e duplicados.
 
-Os modelos foram avaliados com base em:
-- **Acurácia**: Proporção de previsões corretas.
-- **Precisão**: Capacidade de prever corretamente funcionários propensos a sair.
-- **Recall**: Capacidade de identificar todos os funcionários que saíram.
-- **F1-Score**: Harmonia entre precisão e recall.
-- **AUC-ROC**: Desempenho geral do modelo em prever as classes.
+### 3️⃣ Análise Exploratória de Dados (EDA)
+- Visualização da distribuição das variáveis.
+- Identificação de outliers.
+- Análise de correlação entre variáveis.
+- Criação de gráficos para entender a relação entre as variáveis e a saída de funcionários.
+
+### 4️⃣ Limpeza e Preparação dos Dados
+- Remoção de duplicatas.
+- Codificação de variáveis categóricas (`salary` e `department`).
+- Criação de novas features, como `overworked` (funcionários que trabalham mais de 175 horas por mês).
+
+### 5️⃣ Modelagem Preditiva
+- Divisão dos dados em conjuntos de treino e teste.
+- Treinamento de modelos como Regressão Logística, Árvore de Decisão e Random Forest.
+- Ajuste de hiperparâmetros com `GridSearchCV`.
+- Avaliação dos modelos usando métricas como AUC, precisão, recall e F1-score.
+
+### 6️⃣ Interpretação dos Resultados
+- Identificação dos principais fatores que influenciam a saída de funcionários.
+- Sugestões de ações para melhorar a retenção, como ajustes na carga horária e políticas de reconhecimento.
 
 ### Resumo dos Resultados dos Modelos:
 
-Avaliação|Regressão Logistica|Decision Tree|Random Forest|
+Avaliação  |Regressão Logistica |Decision Tree  |Random Forest |
 -----|-----| 
 **Acurácia**|
 **Precisão**|
@@ -89,9 +90,10 @@ O modelo de regressão logística obteve precisão de 80%, recall de 83%, pontua
 Depois de realizar a engenharia de recursos, o modelo de árvore de decisão obteve AUC de 93,8%, precisão de 87,0%, recall de 90,4%, pontuação f1 de 88,7% e acurácia de 96,2% no conjunto de teste. A floresta randômica superou modestamente o modelo de árvore de decisão.
 
 
-## 🔄  Resultados
+## 📊 Resultados e Insights
 
-### Principais descobertas
+### Principais Fatores que Impactam a Retenção:
+- 
 - Departamentos com as maiores taxas de rotatividade: *[Adicionar percepções]*.
 - Os funcionários que trabalham mais de *[Adicionar número]* horas por mês têm maior probabilidade de sair.
 - Altas cargas de projeto foram fortemente correlacionadas com a rotatividade.
@@ -102,11 +104,15 @@ Depois de realizar a engenharia de recursos, o modelo de árvore de decisão obt
   - Accuracy: *[Add]*
   - F1-Score: *[Add]*
 
-## 💡 Recomendações
-- Gerenciamento da carga de trabalho: Implementar limites nas atribuições de projetos.
-- Programas de reconhecimento: Recompensar os funcionários de departamentos com alta rotatividade.
-- Ferramentas de monitoramento: Avalie regularmente a satisfação dos funcionários e o equilíbrio da carga de trabalho
+## 💡 Recomendações para a Empresa:
+- Monitorar a satisfação dos funcionários com pesquisas regulares.
+- Ajustar a carga de trabalho para evitar burnout.
+- Implementar políticas de incentivo e desenvolvimento profissional.
+- Revisar políticas salariais para garantir competitividade.
 
+## 📌 Conclusão
+
+Este projeto demonstra como a análise de dados pode fornecer insights valiosos para a gestão de pessoas, ajudando empresas a reduzir a rotatividade de funcionários com estratégias baseadas em evidências. Os modelos desenvolvidos têm um bom desempenho preditivo e podem ser utilizados para identificar funcionários em risco de saída.
 
 ## Como Executar 🚀
 
