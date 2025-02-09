@@ -81,14 +81,6 @@ Foram utilizadas bibliotecas como `pandas`, `numpy`, `matplotlib`, `seaborn`, `s
 
 ### Resumo dos Resultados dos Modelos:
 
-Avaliação  |Regressão Logistica |Decision Tree  |Random Forest |
------|-----| 
-**Acurácia**|83% | 
-**Precisão**|80% |
-**Recall**|83% |
-**F1-Score**|80%
-**AUC-ROC**|
-
 - Regressão logística
 
 O modelo de Regressão logística obteve precisão de 80%, recall de 83%, pontuação f1 de 80% (todas as médias ponderadas) e acurácia de 83% no conjunto de teste.
@@ -96,7 +88,6 @@ O modelo de Regressão logística obteve precisão de 80%, recall de 83%, pontua
 - Aprendizado de máquina baseado em árvore
 
 Depois de realizar a engenharia de recursos, o modelo de Árvore de decisão obteve AUC de 93,8%, precisão de 87,0%, recall de 90,4%, pontuação f1 de 88,7% e acurácia de 96,2% no conjunto de teste. Random Forest superou modestamente o modelo de Árvore de decisão.
-
 
 ## 📊 Resultados e Insights
 
