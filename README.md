@@ -92,17 +92,17 @@ Depois de realizar a engenharia de recursos, o modelo de Árvore de decisão obt
 ## 📊 Resultados e Insights
 
 ### Principais Fatores que Impactam a Retenção:
-- Baixa satisfação no trabalho.
-- Elevada carga horária mensal.
-- Funcionários com poucos ou muitos projetos foram fortemente correlacionadas com a rotatividade.
-- Salário: Funcionários com salários mais altos tendem a permanecer na empresa.
+- Baixa satisfação no trabalho: Funcionários insatisfeitos têm maior probabilidade de sair.
+- Carga horária elevada: Trabalhar muitas horas por mês aumenta o risco de burnout.
+- Número de projetos: Funcionários com poucos ou muitos projetos são mais propensos a sair.
+- Salário: Colaboradores com salários mais altos tendem a permanecer na empresa.
 - Os 3 departamentos com as maiores taxas de rotatividade são: *Vendas, Tecnologia e Suporte*.
 
 ## 💡 Recomendações para a Empresa:
-- Monitorar a satisfação dos funcionários com pesquisas regulares.
-- Ajustar a carga de trabalho para evitar burnout.
-- Implementar políticas de incentivo e desenvolvimento profissional.
-- Revisar políticas salariais para garantir competitividade.
+- Implementar programas de engajamento para aumentar a satisfação dos funcionários.
+- Ajustar a carga de trabalho para evitar excesso de horas.
+- Revisar políticas salariais para garantir competitividade no mercado.
+- Oferecer oportunidades de desenvolvimento profissional.
 
 ## 📌 Conclusão
 
