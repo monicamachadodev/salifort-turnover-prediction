@@ -20,12 +20,6 @@ O que faz um funcionário decidir sair da empresa?
 
 Se conseguirmos prever quais funcionários estão propensos a sair, será possível entender os fatores críticos que contribuem para a rotatividade. Isso permitirá que a empresa tome medidas preventivas, reduzindo custos associados à perda de talentos, processos seletivos e treinamentos de novos colaboradores.
 
-O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Análise, Construção e Execução):
-1. **Exploração dos Dados**: Análise das variáveis e identificação de padrões.
-2. **Limpeza e Preparação dos Dados**: Tratamento de valores nulos, duplicatas e codificação de variáveis categóricas.
-3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
-4. **Interpretação dos Resultados**: Identificação dos principais fatores que impactam a retenção e sugestões de ações para a empresa.
-
 ## 📂 Compreensão dos Dados 
 
 Os dados foram obtidos do Kaggle [dataset](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv), há 14,999 linhas, 10 colunas e essas variáveis: 
@@ -51,6 +45,12 @@ salary|Nível salarial (baixo, médio, alto).
 - Jupyter Notebook
 
 ## 📖 Passo a Passo do Projeto
+
+O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Análise, Construção e Execução):
+1. **Exploração dos Dados**: Análise das variáveis e identificação de padrões.
+2. **Limpeza e Preparação dos Dados**: Tratamento de valores nulos, duplicatas e codificação de variáveis categóricas.
+3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
+4. **Interpretação dos Resultados**: Identificação dos principais fatores que impactam a retenção e sugestões de ações para a empresa.
 
 ### 1️⃣ Importação de Bibliotecas
 Foram utilizadas bibliotecas como `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn` e `xgboost` para análise, visualização e modelagem.
