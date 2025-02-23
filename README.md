@@ -2,16 +2,6 @@
 
 # Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos 
 
-## 📌 Visão Geral
-
-O objetivo deste projeto é desenvolver um modelo preditivo capaz de identificar a probabilidade de um funcionário deixar a empresa, considerando fatores como cargo, departamento, número de projetos, média de horas mensais e outras variáveis relevantes. Além de construir um modelo eficaz, buscamos compreender os principais fatores que influenciam a rotatividade e fornecer recomendações estratégicas baseadas em dados para apoiar a tomada de decisão da equipe de liderança.
-
-O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Análise, Construção e Execução):
-1. **Exploração dos Dados**: Análise das variáveis e identificação de padrões.
-2. **Limpeza e Preparação dos Dados**: Tratamento de valores nulos, duplicatas e codificação de variáveis categóricas.
-3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
-4. **Interpretação dos Resultados**: Identificação dos principais fatores que impactam a retenção e sugestões de ações para a empresa.
-
 ## Compreendendo o Cenário e o Problema do Negócio
 O departamento de RH da Salifort Motors está em busca de soluções para aumentar a satisfação dos funcionários e reduzir a rotatividade. Eles coletaram dados valiosos sobre seus colaboradores, mas agora enfrentam um desafio: como transformar esses dados em ações eficazes?
 
@@ -29,6 +19,12 @@ O que faz um funcionário decidir sair da empresa?
 - Gerar insights estratégicos para embasar decisões e sugerir ações que aumentem a retenção.
 
 Se conseguirmos prever quais funcionários estão propensos a sair, será possível entender os fatores críticos que contribuem para a rotatividade. Isso permitirá que a empresa tome medidas preventivas, reduzindo custos associados à perda de talentos, processos seletivos e treinamentos de novos colaboradores.
+
+O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Análise, Construção e Execução):
+1. **Exploração dos Dados**: Análise das variáveis e identificação de padrões.
+2. **Limpeza e Preparação dos Dados**: Tratamento de valores nulos, duplicatas e codificação de variáveis categóricas.
+3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
+4. **Interpretação dos Resultados**: Identificação dos principais fatores que impactam a retenção e sugestões de ações para a empresa.
 
 ## 📂 Compreensão dos Dados 
 
