@@ -2,27 +2,33 @@
 
 # Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos 
 
-Este projeto busca identificar padrões e propor estratégias para melhorar a retenção de talentos utilizando técnicas de análise exploratória (EDA) e modelagem preditiva.
-
-
 ## 📌 Visão Geral
 
-O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Analize, Construção e Execução ):
+O objetivo deste projeto é desenvolver um modelo preditivo capaz de identificar a probabilidade de um funcionário deixar a empresa, considerando fatores como cargo, departamento, número de projetos, média de horas mensais e outras variáveis relevantes. Além de construir um modelo eficaz, buscamos compreender os principais fatores que influenciam a rotatividade e fornecer recomendações estratégicas baseadas em dados para apoiar a tomada de decisão da equipe de liderança.
+
+O projeto é dividido nas seguintes etapas utilizando o método PACE (Planejamento, Análise, Construção e Execução):
 1. **Exploração dos Dados**: Análise das variáveis e identificação de padrões.
 2. **Limpeza e Preparação dos Dados**: Tratamento de valores nulos, duplicatas e codificação de variáveis categóricas.
 3. **Modelagem Preditiva**: Treinamento e avaliação de modelos de machine learning para prever a saída de funcionários.
 4. **Interpretação dos Resultados**: Identificação dos principais fatores que impactam a retenção e sugestões de ações para a empresa.
 
-## Compreensão do Negócio
+## Compreendendo o Cenário e o Problema do Negócio
+O departamento de RH da Salifort Motors está em busca de soluções para aumentar a satisfação dos funcionários e reduzir a rotatividade. Eles coletaram dados valiosos sobre seus colaboradores, mas agora enfrentam um desafio: como transformar esses dados em ações eficazes?
 
-A rotatividade de funcionários pode gerar altos custos operacionais e perda de conhecimento institucional. 
+Para ajudar a decifrar essas informações e fornecer insights orientados por dados. A pergunta central que precisamos responder é:
+O que faz um funcionário decidir sair da empresa?
 
-O projeto aborda questões críticas como:
+## Objetivos do Projeto
 
-- Identificar quais departamentos apresentam maior turnover.
-- Analisar a relação entre carga de trabalho e saída dos funcionários.
-- Propor intervenções baseadas em dados.
+- Analisar os dados coletados pelo RH para identificar padrões e tendências.
 
+- Desenvolver um modelo preditivo que consiga prever se um funcionário tem maior probabilidade de deixar a empresa.
+
+- Identificar os principais fatores que contribuem para a saída dos colaboradores.
+
+- Gerar insights estratégicos para embasar decisões e sugerir ações que aumentem a retenção.
+
+Se conseguirmos prever quais funcionários estão propensos a sair, será possível entender os fatores críticos que contribuem para a rotatividade. Isso permitirá que a empresa tome medidas preventivas, reduzindo custos associados à perda de talentos, processos seletivos e treinamentos de novos colaboradores.
 
 ## 📂 Compreensão dos Dados 
 
