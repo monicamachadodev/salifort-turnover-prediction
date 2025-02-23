@@ -2,7 +2,7 @@
 
 # Modelagem Preditiva Baseada em Dados - Previsão de Turnover de Talentos 
 
-Este projeto tem como objetivo analisar os fatores que influenciam a saída de funcionários da empresa fictícia **Salifort Motors**. Utilizando técnicas de análise exploratória de dados (EDA) e modelagem preditiva, buscamos identificar padrões e propor estratégias para melhorar a retenção de colaboradores.
+Este projeto busca identificar padrões e propor estratégias para melhorar a retenção de talentos utilizando técnicas de análise exploratória (EDA) e modelagem preditiva.
 
 
 ## 📌 Visão Geral
