@@ -33,13 +33,13 @@ salary|Nível salarial (baixo, médio, alto).
 
 ## 🛠️ Ferramentas e Tecnologias
 
-- **Linguagem de Programação:** 'Python'
+- **Linguagem de Programação:** `Python`
 
-- **Bibliotecas:** 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Seaborn'
+- **Bibliotecas:** `Pandas`, `NumPy`, `Scikit-learn`, `Matplotlib`, `Seaborn`
 
-- **Ferramentas de Visualização:** 'Matplotlib', 'Seaborn'
+- **Ferramentas de Visualização:** `Matplotlib`, `Seaborn`
 
-- **Modelos de Machine Learning:** 'Regressão Logística', 'Árvore de Decisão', 'Floresta Aleatória'
+- **Modelos de Machine Learning:** `Regressão Logística`, `Decision Tree`, `Random Forest`
 
 ## 📊 Metodologia
 
@@ -49,7 +49,7 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
 
 - **Entendimento do Problema:** Identificar os fatores que levam os funcionários a deixar a empresa.
 
-- **Coleta de Dados:** Utilização de um dataset com 14.999 linhas e 10 variáveis, incluindo 'satisfaction_level', 'last_evaluation', 'number_project', 'average_monthly_hours', entre outras.
+- **Coleta de Dados:** Utilização de um dataset com 14.999 linhas e 10 variáveis, incluindo `satisfaction_level`, `last_evaluation`, `number_project`, `average_monthly_hours`, entre outras.
 
 - **Limpeza e Preparação dos Dados:** Remoção de duplicatas, tratamento de outliers e codificação de variáveis categóricas.
 
@@ -67,7 +67,7 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
 
    - **Árvore de Decisão e Floresta Aleatória:** Desempenho superior, com AUC de 93,8% e recall de 90,4%.
 
-   - **Engenharia de Features:** Criação da variável 'overworked' para capturar funcionários sobrecarregados.
+   - **Engenharia de Features:** Criação da variável `overworked` para capturar funcionários sobrecarregados.
 
 ### 4. Execução
 
@@ -150,7 +150,7 @@ Depois de realizar a engenharia de recursos, o modelo de Árvore de decisão obt
 
 ## 🚀 Próximos Passos
 
-- **Testar sem 'last_evaluation':** Verificar se há vazamento de dados e como isso afeta o desempenho do modelo.
+- **Testar sem `last_evaluation`:** Verificar se há vazamento de dados e como isso afeta o desempenho do modelo.
 
 - **Análise de Agrupamento (K-means):** Identificar grupos de funcionários com características semelhantes.
 
