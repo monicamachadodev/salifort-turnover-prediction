@@ -95,11 +95,11 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
 
 Avaliação  |Regressão Logistica |Decision Tree  |Random Forest |
 -----|-----|-----|-----|
-**Acurácia**| 83% | 50| 100 |
-**Precisão**| 80% | 50 | 100 |
-**Recall**| 83% | 50 | 100 |
-**F1-Score**| 80% | 50 | 100 |
-**AUC-ROC**| 50 | 100 | 100 |
+**Acurácia** | 82% | 94,4%| 96.2%  |
+**Precisão** | 79% | 78,4% | 87.0% |
+**Recall** | 82% | 91,8% | 90.4%  |
+**F1-Score** | 80% | 84,5% | 88.7%  |
+**AUC-ROC** |   | 93,4% | 93.8%  |
 
 ## 📊 Resultados e Insights
 
