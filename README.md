@@ -65,23 +65,23 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
    - Identificação de outliers.
    - Análise de correlação entre variáveis.
 
-- **Visualizações:** Criação de gráfico para entender a relação entre as variáveis,
+- **Visualizações:**
    - Gráficos de dispersão,
    - Boxplots,
-   - Histogramas e
+   - Histogramas,
    - Mapas de calor para entender as correlações entre as variáveis.
 
 ### 3. Construção
 
 - **Modelagem:**
   
-- Divisão dos dados em conjuntos de treino e teste.
+   - Divisão dos dados em conjuntos de treino e teste.
   
-- Treinamento de modelos como Regressão Logística, Árvore de Decisão e Random Forest.
+   - Treinamento de modelos como Regressão Logística, Árvore de Decisão e Random Forest.
   
-- Ajuste de hiperparâmetros com `GridSearchCV`.
+   - Ajuste de hiperparâmetros com `GridSearchCV`.
   
-- Avaliação dos modelos usando métricas como AUC, precisão, recall e F1-score.
+   - Avaliação dos modelos usando métricas como AUC, precisão, recall e F1-score.
 
 - **Engenharia de Features:** Criação da variável `overworked` para capturar funcionários sobrecarregados.
 
