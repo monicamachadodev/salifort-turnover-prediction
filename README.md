@@ -49,7 +49,7 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
 
 - **Entendimento do Problema:** Identificar os fatores que levam os funcionários a deixar a empresa.
 
-- **Coleta de Dados:** Utilização de um dataset com 14.999 linhas e 10 variáveis, incluindo satisfaction_level, last_evaluation, number_project, average_monthly_hours, entre outras.
+- **Coleta de Dados:** Utilização de um dataset com 14.999 linhas e 10 variáveis, incluindo 'satisfaction_level', 'last_evaluation', 'number_project', 'average_monthly_hours', entre outras.
 
 - **Limpeza e Preparação dos Dados:** Remoção de duplicatas, tratamento de outliers e codificação de variáveis categóricas.
 
@@ -137,10 +137,15 @@ Depois de realizar a engenharia de recursos, o modelo de Árvore de decisão obt
 - Os 3 departamentos com as maiores taxas de rotatividade são: *Vendas, Tecnologia e Suporte*.
 
 ## 💡 Recomendações para a Empresa:
+
 - Implementar programas de engajamento para aumentar a satisfação dos funcionários.
+  
 - Ajustar a carga de trabalho para evitar excesso de horas.
+  
 - Revisar políticas salariais para garantir competitividade no mercado.
+  
 - Esclarecer políticas de pagamento de horas extras e expectativas de carga de trabalho.
+  
 - Oferecer oportunidades de desenvolvimento profissional.
 
 ## 🚀 Próximos Passos
