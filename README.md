@@ -93,13 +93,13 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
 
 ### Resumo dos Resultados dos Modelos:
 
-- Regressão logística
-
-O modelo de Regressão logística obteve precisão de 80%, recall de 83%, pontuação f1 de 80% (todas as médias ponderadas) e acurácia de 83% no conjunto de teste.
-
-- Aprendizado de máquina baseado em árvore
-
-Depois de realizar a engenharia de recursos, o modelo de Árvore de decisão obteve AUC de 93,8%, precisão de 87,0%, recall de 90,4%, pontuação f1 de 88,7% e acurácia de 96,2% no conjunto de teste. Random Forest superou modestamente o modelo de Árvore de decisão.
+Avaliação  |Regressão Logistica |Decision Tree  |Random Forest |
+-----|-----|-----|-----|
+**Acurácia**| 83% | 50| 100 |
+**Precisão**| 80% | 50 | 100 |
+**Recall**| 83% | 50 | 100 |
+**F1-Score**| 80% | 50 | 100 |
+**AUC-ROC**| 50 | 100 | 100 |
 
 ## 📊 Resultados e Insights
 
