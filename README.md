@@ -164,11 +164,11 @@ Depois de realizar a engenharia de recursos, o modelo de Árvore de decisão obt
 
 ## 📚 Recursos
 
-Documentação do Pandas
+[Documentação do Pandas](https://pandas.pydata.org/docs/)
 
-Documentação do Scikit-learn
+[Documentação do Scikit-learn](https://scikit-learn.org/stable/)
 
-Documentação do Matplotlib
+[Documentação do Matplotlib](https://matplotlib.org/stable/users/index.html)
 
 ## 📌 Conclusão
 
