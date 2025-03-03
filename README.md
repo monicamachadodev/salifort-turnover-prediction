@@ -65,7 +65,11 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
    - Identificação de outliers.
    - Análise de correlação entre variáveis.
 
-- **Visualizações:** Criação de gráfico para entender a relação entre as variáveis, Gráficos de dispersão, boxplots, histogramas e mapas de calor para entender as correlações entre as variáveis.
+- **Visualizações:** Criação de gráfico para entender a relação entre as variáveis,
+   - Gráficos de dispersão,
+   - Boxplots,
+   - Histogramas e
+   - Mapas de calor para entender as correlações entre as variáveis.
 
 ### 3. Construção
 
