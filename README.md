@@ -12,7 +12,9 @@ O que faz um funcionário decidir sair da empresa?
 
 ## 🎯 Objetivo do Projeto
 
-O objetivo principal é prever a probabilidade de um funcionário deixar a empresa e identificar os principais fatores que contribuem para essa decisão. Com base nisso, foram propostas recomendações acionáveis para melhorar a satisfação e a retenção dos funcionários.
+O objetivo principal é prever a probabilidade de um funcionário deixar a empresa e identificar os principais fatores que contribuem para essa decisão. 
+
+Com base nisso, foram propostas recomendações acionáveis para melhorar a satisfação e a retenção dos funcionários.
 
 ## 📂 Compreensão dos Dados 
 
@@ -41,7 +43,7 @@ salary|Nível salarial (baixo, médio, alto).
 
 - **Modelos de Machine Learning:** `Regressão Logística`, `Decision Tree`, `Random Forest`
 
-## 📊 Metodologia
+## 📊 Metodologia e Passo a Passo do Projeto
 
 O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Construção e Execução):
 
@@ -51,66 +53,39 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
 
 - **Coleta de Dados:** Utilização de um dataset com 14.999 linhas e 10 variáveis, incluindo `satisfaction_level`, `last_evaluation`, `number_project`, `average_monthly_hours`, entre outras.
 
-- **Limpeza e Preparação dos Dados:** Remoção de duplicatas, tratamento de outliers e codificação de variáveis categóricas.
+- **Limpeza e Preparação dos Dados:**
+   - Remoção de duplicatas,
+   - Tratamento de outliers,
+   - Codificação de variáveis categóricas (`salary` e `department`)..
 
 ### 2. Análise
 
-- **Análise Exploratória de Dados (EDA):** Identificação de padrões e insights, como a relação entre carga de trabalho, satisfação e saída dos funcionários.
+- **Análise Exploratória de Dados (EDA):**
+   - Visualização da distribuição das variáveis.
+   - Identificação de outliers.
+   - Análise de correlação entre variáveis.
 
-- **Visualizações:** Gráficos de dispersão, boxplots, histogramas e mapas de calor para entender as correlações entre as variáveis.
+- **Visualizações:** Criação de gráfico para entender a relação entre as variáveis, Gráficos de dispersão, boxplots, histogramas e mapas de calor para entender as correlações entre as variáveis.
 
 ### 3. Construção
 
 - **Modelagem:**
+  
+- Divisão dos dados em conjuntos de treino e teste.
+  
+- Treinamento de modelos como Regressão Logística, Árvore de Decisão e Random Forest.
+  
+- Ajuste de hiperparâmetros com `GridSearchCV`.
+  
+- Avaliação dos modelos usando métricas como AUC, precisão, recall e F1-score.
 
-   - **Regressão Logística:** Acurácia de 83%, mas com recall e precisão moderados para a classe "saída".
-
-   - **Árvore de Decisão e Floresta Aleatória:** Desempenho superior, com AUC de 93,8% e recall de 90,4%.
-
-   - **Engenharia de Features:** Criação da variável `overworked` para capturar funcionários sobrecarregados.
+- **Engenharia de Features:** Criação da variável `overworked` para capturar funcionários sobrecarregados.
 
 ### 4. Execução
 
 - **Interpretação do Modelo:** Identificação dos principais fatores que influenciam a saída dos funcionários, como carga de trabalho excessiva e falta de promoções.
 
-- **Recomendações:** Propostas para limitar a carga de trabalho, promover funcionários e melhorar a satisfação geral.
-
-## 📖 Passo a Passo do Projeto
-
-### 1️⃣ Importação de Bibliotecas
-
-Foram utilizadas bibliotecas como `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn` e `xgboost` para análise, visualização e modelagem.
-
-### 2️⃣ Carregamento e Inspeção dos Dados
-
-- Leitura do dataset `HR.csv`.
-- Renomeação de colunas para facilitar a manipulação.
-- Verificação de valores nulos e duplicados.
-
-### 3️⃣ Análise Exploratória de Dados (EDA)
-
-- Visualização da distribuição das variáveis.
-- Identificação de outliers.
-- Análise de correlação entre variáveis.
-- Criação de gráficos para entender a relação entre as variáveis e a saída de funcionários.
-
-### 4️⃣ Limpeza e Preparação dos Dados
-
-- Remoção de duplicatas.
-- Codificação de variáveis categóricas (`salary` e `department`).
-- Criação de novas features, como `overworked` (funcionários que trabalham mais de 175 horas por mês).
-
-### 5️⃣ Modelagem Preditiva
-
-- Divisão dos dados em conjuntos de treino e teste.
-- Treinamento de modelos como Regressão Logística, Árvore de Decisão e Random Forest.
-- Ajuste de hiperparâmetros com `GridSearchCV`.
-- Avaliação dos modelos usando métricas como AUC, precisão, recall e F1-score.
-
-### 6️⃣ Interpretação dos Resultados
-
-- Identificação dos principais fatores que influenciam a saída de funcionários.
-- Sugestões de ações para melhorar a retenção, como ajustes na carga horária e políticas de reconhecimento.
+- **Recomendações:** Sugestões de ações para melhorar a retenção, como ajustes na carga horária e políticas de reconhecimento.
 
 ### Resumo dos Resultados dos Modelos:
 
