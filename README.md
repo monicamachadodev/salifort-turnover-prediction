@@ -77,7 +77,7 @@ O projeto foi estruturado seguindo a metodologia **PACE** (Plano, Análise, Cons
   
    - Divisão dos dados em conjuntos de treino e teste.
   
-   - Treinamento de modelos como Regressão Logística, Árvore de Decisão e Random Forest.
+   - Treinamento de modelos como `Regressão Logística`, `Decision Tree` e `Random Forest`.
   
    - Ajuste de hiperparâmetros com `GridSearchCV`.
   
@@ -127,6 +127,10 @@ Depois de realizar a engenharia de recursos, o modelo de Árvore de decisão obt
   
 - Oferecer oportunidades de desenvolvimento profissional.
 
+## 📌 Conclusão
+
+Este projeto demonstra como a análise de dados pode fornecer insights valiosos para a gestão de pessoas, ajudando empresas a reduzir a rotatividade de funcionários com estratégias baseadas em evidências. Os modelos desenvolvidos têm um bom desempenho preditivo e podem ser utilizados para identificar funcionários em risco de saída.
+
 ## 🚀 Próximos Passos
 
 - **Testar sem `last_evaluation`:** Verificar se há vazamento de dados e como isso afeta o desempenho do modelo.
@@ -149,9 +153,6 @@ Depois de realizar a engenharia de recursos, o modelo de Árvore de decisão obt
 
 [Documentação do Matplotlib](https://matplotlib.org/stable/users/index.html)
 
-## 📌 Conclusão
-
-Este projeto demonstra como a análise de dados pode fornecer insights valiosos para a gestão de pessoas, ajudando empresas a reduzir a rotatividade de funcionários com estratégias baseadas em evidências. Os modelos desenvolvidos têm um bom desempenho preditivo e podem ser utilizados para identificar funcionários em risco de saída.
 
 ## 🚀 Como Executar 
 
